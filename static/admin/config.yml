@@ -1,5 +1,6 @@
 backend:
   name: github
+  repo: greensteph/student-study-tool
   branch: master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
