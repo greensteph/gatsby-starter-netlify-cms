@@ -26,8 +26,13 @@ mainpitch:
 language:
   heading: ELA
   flashcards:
-    - question: This is an ela card
-      answer: ela answer
+    - question: |2
+         What misunderstanding takes place in the school yard?
+      answer: >
+        John Quinn thought that Paul was being greedy in keeping the paddle
+        longer than fifteen minutes. 
+    - question: What is the definition of demented?
+      answer: insane; mad
 math:
   heading: Math
   flashcards:
