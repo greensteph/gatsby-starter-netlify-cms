@@ -38,5 +38,5 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Title, name: title, widget: string}
           - {label: Heading, name: heading, widget: string}
-          - {label: Science, name: science, widget: object, fields: [{label: Flashcards, name: flashcards, widget: list, fields: [{label: Question, name: question, widget: text}, {label: Answer, name: answer, widget: text}]}]}
+          - {label: Science, name: science, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Flashcards, name: flashcards, widget: list, fields: [{label: Question, name: question, widget: text}, {label: Answer, name: answer, widget: text}]}]}
           

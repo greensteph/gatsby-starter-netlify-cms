@@ -50,10 +50,10 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title">{heading}</h1>
+                    <h1 className="title">{science.heading}</h1>
                   </div>
                   <div className="tile">
-                  {/* <Features gridItems={science.flashcards} /> */}
+                  <Features gridItems={science.flashcards} />
                     
                   </div>
                 </div>
@@ -112,8 +112,14 @@ query IndexPageTemplate {
     frontmatter {
       title
       heading
+      science {
+        heading
+        flashcards {
+          question
+          answer
+        }
+      }
     }
   }
 }
-
 `
