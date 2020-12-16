@@ -5,7 +5,7 @@ image: /img/home-jumbotron.jpg
 heading: What would you like to study?
 subheading: not currently used
 mainpitch:
-  title: Why Kaldi
+  title: Subject
   description: >
     Kaldi is the coffee store for everyone who believes that great coffee
     shouldn't just taste good, it should do good too. We source all of our beans
