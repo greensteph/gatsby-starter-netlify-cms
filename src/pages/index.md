@@ -31,9 +31,6 @@ language:
       answer: >
         John Quinn thought that Paul was being greedy in keeping the paddle
         longer than fifteen minutes. 
-
-
-        Paul didn’t know about the time limit and thought that John Quinn was picking on him.
     - question: What is the definition of demented?
       answer: insane; mad
 math:
