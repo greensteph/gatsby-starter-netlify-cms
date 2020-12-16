@@ -8,10 +8,9 @@ import Features from '../components/Features'
 
 export const IndexPageTemplate = ({
   title,
-  heading,
-  mainpitch,
-  description,
   science,
+  language,
+  math,
 }) => (
   <div>
     <div
@@ -54,7 +53,26 @@ export const IndexPageTemplate = ({
                   </div>
                   <div className="tile">
                   <Features gridItems={science.flashcards} />
-                    
+                  {/* <Features gridItems={language.flashcards} />
+                  <Features gridItems={math.flashcards} /> */}
+                  </div>
+                </div>
+
+                <div className="content">
+                  <div className="tile">
+                    <h1 className="title">{language.heading}</h1>
+                  </div>
+                  <div className="tile">
+                  <Features gridItems={language.flashcards} />
+                  </div>
+                </div>
+
+                <div className="content">
+                  <div className="tile">
+                    <h1 className="title">{math.heading}</h1>
+                  </div>
+                  <div className="tile">
+                    <Features gridItems={math.flashcards} />
                   </div>
                 </div>
                 </div>
@@ -89,6 +107,8 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         science={frontmatter.science}
+        language={frontmatter.language}
+        math={frontmatter.math}
       />
     </Layout>
   )
@@ -117,7 +137,22 @@ query IndexPageTemplate {
           answer
         }
       }
+      language {
+        heading
+        flashcards {
+          question
+          answer
+        }
+      }
+      math {
+        heading
+        flashcards {
+          question
+          answer
+        }
+      }
     }
   }
 }
+
 `
