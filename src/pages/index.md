@@ -44,6 +44,8 @@ math:
         fraction as a mixed number. Then add the whole-number part of the mixed
         number to the other whole-number parts.
 
+    - question: 1/4 + 1/20
+      answer: 6 3/10
 image: /img/vectorstock_953773.png
 description: lorem ipsum
 ---
