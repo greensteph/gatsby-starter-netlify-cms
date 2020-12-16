@@ -53,11 +53,8 @@ export const IndexPageTemplate = ({
                   </div>
                   <div className="tile">
                   <Features gridItems={science.flashcards} />
-                  {/* <Features gridItems={language.flashcards} />
-                  <Features gridItems={math.flashcards} /> */}
                   </div>
                 </div>
-
                 <div className="content">
                   <div className="tile">
                     <h1 className="title">{language.heading}</h1>
@@ -66,7 +63,6 @@ export const IndexPageTemplate = ({
                   <Features gridItems={language.flashcards} />
                   </div>
                 </div>
-
                 <div className="content">
                   <div className="tile">
                     <h1 className="title">{math.heading}</h1>

@@ -17,7 +17,7 @@ const Flashcard = (props) => {
             <h3 className='subtitle'>{props.answer}</h3>
         </div>
     </ReactCardFlip>
-)
+    )
 }
 
 export default Flashcard;
