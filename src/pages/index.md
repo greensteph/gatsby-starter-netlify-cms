@@ -29,6 +29,9 @@ language:
       answer: ela answer
 math:
   heading: Math
+  flashcards:
+    - question: This is a math flashcard
+      answer: this is the answer
 image: /img/vectorstock_953773.png
 description: lorem ipsum
 ---
