@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
+import Flashcard from '../components/Flashcard'
+
 
 export const IndexPageTemplate = ({
   image,
@@ -60,6 +60,7 @@ export const IndexPageTemplate = ({
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
+                    <Flashcard />
                     <h3 className="subtitle">{mainpitch.description}</h3>
                   </div>
                 </div>
