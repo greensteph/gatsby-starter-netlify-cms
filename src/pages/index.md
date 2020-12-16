@@ -16,6 +16,6 @@ science:
       answer: The answer is 4!
     - question: This is my 2nd flashcard
       answer: This is the answer!!
-  heading: lorem ipsum
+  heading: Science
   description: lorem ipsum
 ---
