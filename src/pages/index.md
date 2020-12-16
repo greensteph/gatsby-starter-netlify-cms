@@ -12,12 +12,14 @@ science:
       answer: turbines
     - question: What is science anyway?
       answer: Who knows???
-    - question: another card
-      answer: this answer
-    - question: "card #5"
-      answer: "#5"
-    - question: "card # 6"
-      answer: "answer #6"
+    - question: Selectively cutting down trees on an area of land can be best
+        described as...
+      answer: cutting down certain trees while leaving other trees standing.
+    - question: The process of desertification can occur when...
+      answer: an area of forest is clear-cut.
+    - question: When a positively charged object moves in the same direction as the
+        electric field, the electric potential energy of the object...
+      answer: decreases.
   heading: Science
   description: lorem ipsum
 mainpitch:
@@ -36,8 +38,12 @@ language:
 math:
   heading: Math
   flashcards:
-    - question: This is a math flashcard
-      answer: this is the answer
+    - question: What Do You Do When the Sum of the Fractions is an Improper Fraction?
+      answer: >+
+        If the sum of the fractions is an improper fraction, rename the improper
+        fraction as a mixed number. Then add the whole-number part of the mixed
+        number to the other whole-number parts.
+
 image: /img/vectorstock_953773.png
 description: lorem ipsum
 ---
