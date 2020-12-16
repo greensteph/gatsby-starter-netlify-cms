@@ -5,10 +5,11 @@ import Flashcard from '../components/Flashcard'
 const styles = {
   card: {
     border: '1px solid #eeeeee',
-    backgroundColor: '#758085',
+    backgroundColor: '#f3f4f4',
+    color: 'white',
     borderRadius: '8px',
     padding: '15px',
-    width: '550px',
+    width: '520px',
     height: '350px'
   }
 };
@@ -18,16 +19,7 @@ const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map((item) => (
       <div key={item.question} className="column is-6">
-        <section className="section">
-          <div className="has-text-centered">
-            <div
-              style={{
-                width: '240px',
-                display: 'inline-block',
-              }}
-            >
-            </div>
-          </div>
+        <section>
           <Flashcard styles={styles} question={item.question} answer={item.answer}/>
         </section>
       </div>

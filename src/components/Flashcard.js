@@ -11,7 +11,7 @@ const Flashcard = (props) => {
     return (
     <ReactCardFlip isFlipped={isFlipped}>
         <div onClick={handleClick} style={props.styles.card}>
-            <h3 className='subtitle'>{props.question}</h3>
+    <h3>{props.question}</h3>
         </div>
         <div onClick={handleClick} style={props.styles.card}>
             <h3 className='subtitle'>{props.answer}</h3>
