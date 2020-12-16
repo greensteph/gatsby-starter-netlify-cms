@@ -14,8 +14,14 @@ science:
       question: |
         What is 2 + 2?
       answer: The answer is 4!
-    - question: This is my 2nd flashcard
-      answer: This is the answer!!
+    - question: What is science anyway?
+      answer: Who knows???
+    - question: another card
+      answer: this answer
+    - question: "card #5"
+      answer: "#5"
+    - question: "card # 6"
+      answer: "answer #6"
   heading: Science
   description: lorem ipsum
 ---
