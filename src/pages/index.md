@@ -1,13 +1,8 @@
 ---
-templateKey: index-page
-title: Study Time
-image: /img/vectorstock_953773.png
 heading: What would you like to study?
 subheading: not currently used
-mainpitch:
-  title: ELA
-  description: lorem ipsum
-description: lorem ipsum
+templateKey: index-page
+title: Study Time
 science:
   flashcards:
     - image: /img/coffee.png
@@ -24,4 +19,16 @@ science:
       answer: "answer #6"
   heading: Science
   description: lorem ipsum
+mainpitch:
+  title: ELA
+  description: lorem ipsum
+language:
+  heading: ELA
+  flashcards:
+    - question: This is an ela card
+      answer: ela answer
+math:
+  heading: Math
+image: /img/vectorstock_953773.png
+description: lorem ipsum
 ---
