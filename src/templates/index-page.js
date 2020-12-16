@@ -1,8 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Flashcard from '../components/Flashcard'
+
+const styles = {
+  card: {
+    border: '1px solid #eeeeee',
+    backgroundColor: 'pink',
+    borderRadius: '8px',
+    padding: '15px',
+    width: '550px',
+    height: '350px'
+  }
+};
 
 
 export const IndexPageTemplate = ({
@@ -60,14 +71,10 @@ export const IndexPageTemplate = ({
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
-                    <Flashcard />
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <Flashcard styles={styles}/>
                   </div>
                 </div>
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
                   </div>
                 </div>
               </div>

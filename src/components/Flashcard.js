@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
 
-const Flashcard = () => {
+const Flashcard = (props) => {
     const [isFlipped, setIsFlipped] = useState(false);
 
     const handleClick = () => {
@@ -10,14 +10,12 @@ const Flashcard = () => {
 
     return (
     <ReactCardFlip isFlipped={isFlipped}>
-        <div>
+        <div onClick={handleClick} style={props.styles.card}>
             <h3 className='subtitle'>This is the front of the card.</h3>
-            <button onClick={handleClick}>Click to flip</button>
         </div>
 
-        <div>
-            This is the back of the card.
-            <button onClick={handleClick}>Click to flip</button>
+        <div onClick={handleClick} style={props.styles.card}>
+            <h3 className='subtitle'>This is the back of the same card.</h3>
         </div>
     </ReactCardFlip>
 )
