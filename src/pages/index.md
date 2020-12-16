@@ -26,8 +26,11 @@ mainpitch:
 language:
   heading: ELA
   flashcards:
-    - question: This is an ela card
-      answer: ela answer
+    - question: What misunderstanding takes place in the school yard?
+      answer: >
+        John Quinn thought that Paul was being greedy in keeping the paddle
+        longer than fifteen minutes. Paul didn’t know about the time limit and
+        thought that John Quinn was picking on him.
 math:
   heading: Math
   flashcards:
