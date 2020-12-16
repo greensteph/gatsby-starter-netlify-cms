@@ -51,8 +51,9 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
   flashcards:
-    - question: add question content
-      answer: add answer content
+    - question: Why is it important to use an organizational pattern in
+        comparison/contrast essays?
+      answer: to clearly show the relationships between the items you are comparing
 main:
   heading: Great coffee with no compromises
   description: >
