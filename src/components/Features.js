@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Flashcard from '../components/Flashcard'
 
 const styles = {
@@ -27,7 +26,6 @@ const FeatureGrid = ({ gridItems }) => (
                 display: 'inline-block',
               }}
             >
-              <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
           <Flashcard styles={styles} question={item.question} answer={item.answer}/>
@@ -40,8 +38,8 @@ const FeatureGrid = ({ gridItems }) => (
 FeatureGrid.propTypes = {
   gridItems: PropTypes.arrayOf(
     PropTypes.shape({
-      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-      text: PropTypes.string,
+      question: PropTypes.string,
+      answer: PropTypes.string
     })
   ),
 }
