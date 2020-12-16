@@ -8,7 +8,7 @@ mainpitch:
   title: ELA
   description: lorem ipsum
 description: lorem ipsum
-intro:
+science:
   flashcards:
     - image: /img/coffee.png
       question: |

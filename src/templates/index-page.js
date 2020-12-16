@@ -11,7 +11,7 @@ export const IndexPageTemplate = ({
   heading,
   mainpitch,
   description,
-  intro,
+  science,
 }) => (
   <div>
     <div
@@ -53,7 +53,7 @@ export const IndexPageTemplate = ({
                     <h1 className="title">{heading}</h1>
                   </div>
                   <div className="tile">
-                  <Features gridItems={intro.flashcards} />
+                  {/* <Features gridItems={science.flashcards} /> */}
                     
                   </div>
                 </div>
@@ -74,7 +74,7 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
-  intro: PropTypes.shape({
+  science: PropTypes.shape({
     flashcards: PropTypes.array,
   }),
 }
@@ -90,7 +90,7 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
-        intro={frontmatter.intro}
+        science={frontmatter.science}
       />
     </Layout>
   )
@@ -112,12 +112,6 @@ query IndexPageTemplate {
     frontmatter {
       title
       heading
-      intro {
-        flashcards {
-          question
-          answer
-        }
-      }
     }
   }
 }
