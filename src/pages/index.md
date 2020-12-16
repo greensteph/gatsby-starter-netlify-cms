@@ -26,7 +26,8 @@ mainpitch:
 language:
   heading: ELA
   flashcards:
-    - question: What misunderstanding takes place in the school yard?
+    - question: |2
+         What misunderstanding takes place in the school yard?
       answer: >
         John Quinn thought that Paul was being greedy in keeping the paddle
         longer than fifteen minutes. Paul didn’t know about the time limit and
