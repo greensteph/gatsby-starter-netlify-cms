@@ -6,9 +6,10 @@ title: Study Time
 science:
   flashcards:
     - image: /img/coffee.png
-      question: |
-        What is 2 + 2?
-      answer: The answer is 4!
+      question: >
+        Harvesting energy from water, wind, and geothermal sources requires the
+        use of 
+      answer: turbines
     - question: What is science anyway?
       answer: Who knows???
     - question: another card
