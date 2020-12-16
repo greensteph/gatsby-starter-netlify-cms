@@ -1,11 +1,24 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import Flashcard from '../components/Flashcard'
+
+const styles = {
+  card: {
+    border: '1px solid #eeeeee',
+    backgroundColor: '#758085',
+    borderRadius: '8px',
+    padding: '15px',
+    width: '550px',
+    height: '350px'
+  }
+};
+
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map((item) => (
-      <div key={item.text} className="column is-6">
+      <div key={item.question} className="column is-6">
         <section className="section">
           <div className="has-text-centered">
             <div
@@ -17,7 +30,7 @@ const FeatureGrid = ({ gridItems }) => (
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <p>{item.text}</p>
+          <Flashcard styles={styles} question={item.question} answer={item.answer}/>
         </section>
       </div>
     ))}

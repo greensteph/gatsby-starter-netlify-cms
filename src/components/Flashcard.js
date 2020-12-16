@@ -11,11 +11,10 @@ const Flashcard = (props) => {
     return (
     <ReactCardFlip isFlipped={isFlipped}>
         <div onClick={handleClick} style={props.styles.card}>
-            <h3 className='subtitle'>This is the front of the card.</h3>
+            <h3 className='subtitle'>{props.question}</h3>
         </div>
-
         <div onClick={handleClick} style={props.styles.card}>
-            <h3 className='subtitle'>This is the back of the same card.</h3>
+            <h3 className='subtitle'>{props.answer}</h3>
         </div>
     </ReactCardFlip>
 )
