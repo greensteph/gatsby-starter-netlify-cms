@@ -6,7 +6,7 @@ const styles = {
   card: {
     border: '1px solid #eeeeee',
     backgroundColor: '#f3f4f4',
-    color: 'white',
+    color: '#276cda',
     borderRadius: '8px',
     padding: '15px',
     width: '520px',
