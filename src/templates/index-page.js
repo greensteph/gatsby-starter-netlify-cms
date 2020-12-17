@@ -19,6 +19,7 @@ export const IndexPageTemplate = ({
       <div
         style={{
           display: 'flex',
+          backgroundColor: '#8f8a71',
           height: '150px',
           lineHeight: '1',
           justifyContent: 'space-around',
@@ -29,9 +30,6 @@ export const IndexPageTemplate = ({
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -49,7 +47,7 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title">{science.heading}</h1>
+                    <h1 style={{fontSize: '3em', color: '#8f8a71', marginBottom: '1em'}} >{science.heading}</h1>
                   </div>
                   <div className="tile">
                   <Features gridItems={science.flashcards} />
@@ -57,7 +55,7 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title">{language.heading}</h1>
+                    <h1 style={{fontSize: '3em', color: '#8f8a71', marginBottom: '1em', marginTop: '2em'}}>{language.heading}</h1>
                   </div>
                   <div className="tile">
                   <Features gridItems={language.flashcards} />
@@ -65,7 +63,7 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title">{math.heading}</h1>
+                    <h1 style={{fontSize: '3em', color: '#8f8a71', marginBottom: '1em', marginTop: '2em'}}>{math.heading}</h1>
                   </div>
                   <div className="tile">
                     <Features gridItems={math.flashcards} />
