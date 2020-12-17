@@ -1,5 +1,5 @@
 ---
-heading: What would you like to study today?
+heading: What would you like to study?
 subheading: not currently used
 templateKey: index-page
 title: Study Time
