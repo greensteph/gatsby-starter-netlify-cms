@@ -6,11 +6,15 @@ const styles = {
   card: {
     border: '1px solid #eeeeee',
     backgroundColor: '#f3f4f4',
-    color: '#276cda',
+    color: '#57818c',
+    fontSize: '2em',
+    fontWeight: '600',
+    lineHeight: '1.125',
     borderRadius: '8px',
     padding: '15px',
     width: '520px',
-    height: '350px'
+    height: '350px',
+    boxShadow:  '15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff'
   }
 };
 
