@@ -10,8 +10,6 @@ science:
         Harvesting energy from water, wind, and geothermal sources requires the
         use of 
       answer: turbines
-    - question: What is science anyway?
-      answer: The study of STUFF.
     - question: Selectively cutting down trees on an area of land can be best
         described as...
       answer: cutting down certain trees while leaving other trees standing.
@@ -20,6 +18,8 @@ science:
     - question: When a positively charged object moves in the same direction as the
         electric field, the electric potential energy of the object...
       answer: decreases.
+    - question: another question
+      answer: the answer
   heading: Science
   description: lorem ipsum
 mainpitch:
